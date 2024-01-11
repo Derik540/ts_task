@@ -1,9 +1,8 @@
 function multiplica(num1, num2) {
     return num1 * num2;
 }
-var resultado = multiplica(23, 45);
-console.log(resultado);
+multiplica(23, 45);
 function saudacao(nome) {
-    console.log("Bom dia ".concat(nome));
+    return "Ol\u00E1 ".concat(nome);
 }
 saudacao('Derik');
